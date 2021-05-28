@@ -6,7 +6,7 @@ let ctx = canvas.getContext("2d");
         ctx.fillStyle = "white";
         ctx.strokeStyle= "white";
         ctx.fillRect(0,0,1536,722);
-        ctx.closePath();
+        // ctx.closePath();
         
     let movenotNoted = false;
     let pen = document.querySelector("#pen");
