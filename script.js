@@ -76,6 +76,7 @@ let ctx = canvas.getContext("2d");
         ctx.beginPath();
         ctx.fillStyle = "white";
         ctx.fillRect(0,0,1536,722);
+        ctx.closePath();
     })
     save.addEventListener("click",function(){
         $(".selected").removeClass("selected");
