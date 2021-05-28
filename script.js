@@ -7,6 +7,7 @@ let ctx = canvas.getContext("2d");
         ctx.strokeStyle= "white";
         ctx.fillRect(0,0,1536,722);
         ctx.closePath();
+        
     let movenotNoted = false;
     let pen = document.querySelector("#pen");
     let pen2 = document.querySelector("#pen2");
@@ -24,36 +25,42 @@ let ctx = canvas.getContext("2d");
         $(".selected").removeClass("selected");
         $("#pen").addClass("selected");
         ctx.beginPath();
+        ctx.strokeStyle = "black";
         pentest("black",5);
     })
     pen2.addEventListener("click",function(){
         $(".selected").removeClass("selected");
         $("#pen2").addClass("selected");
         ctx.beginPath();
+        ctx.strokeStyle = "blue";
         pentest("blue",5);
     })
     pen3.addEventListener("click",function(){
         $(".selected").removeClass("selected");
         $("#pen3").addClass("selected");
         ctx.beginPath();
+        ctx.strokeStyle = "green";
         pentest("green",5);
     })
     pen4.addEventListener("click",function(){
         $(".selected").removeClass("selected");
         $("#pen4").addClass("selected");
         ctx.beginPath();
+        ctx.strokeStyle = "red";
         pentest("red",5);
     })
     pen5.addEventListener("click",function(){
         $(".selected").removeClass("selected");
         $("#pen5").addClass("selected");
         ctx.beginPath();
+        ctx.strokeStyle = "yellow";
         pentest("yellow",5);
     })
     highlight.addEventListener("click",function(){
         $(".selected").removeClass("selected");
         $("#highlight").addClass("selected");
         ctx.beginPath();
+        ctx.strokeStyle = "blueviolet";
         pentest("blueviolet",5);
     })
     erase.addEventListener("click",function(){

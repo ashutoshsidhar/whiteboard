@@ -9,11 +9,11 @@ body {
 }
 
 canvas{
-    background-color:white;
     width: 100vw;
     height: 85vh;
     cursor: crosshair;
     display: block;
+
 }
 
 .taskbar-parent{
