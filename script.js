@@ -4,7 +4,7 @@ canvas.height = window.innerHeight;
 let ctx = canvas.getContext("2d");
         ctx.beginPath();
         ctx.fillStyle = "white";
-        ctx.strokeStyle= "white";
+//         ctx.strokeStyle= "white";
         ctx.fillRect(0,0,1536,722);
         // ctx.closePath();
         
