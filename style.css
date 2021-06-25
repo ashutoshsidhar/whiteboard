@@ -25,6 +25,8 @@ canvas{
     align-items: center;
     
 }
+
+
 #pen,#highlight,#eraser,#clear,#save,#text,#pen2,#pen3,#pen4,#pen5{
     font-size: 42px;
     margin-right: 40px ;
@@ -35,40 +37,64 @@ canvas{
     transform: scale(1.2);
     font-weight: bolder;
 }
+
+
 #save{
     padding-left: 30px;
 }
+
+
 #pen{
  color: black;
 }
+
+
 #pen2{
  color: blue;
 }
+
+
 #pen3{
  color: green;
 }
+
+
 #pen4{
  color: red;
 }
+
+
 #pen5{
  color: yellow;
 }
+
+
 #highlight{
  color: blueviolet;
 }
+
+
 #eraser{
     color: white;
    }
+
+
    #save{
     color: greenyellow;
    }
+
+
    #clear{
        color: red;
    }
+
+
 .selected{
     border: 2px dashed grey;
     animation: mymove 500ms infinite;
 }
+
+
 @keyframes mymove {
     50% {border: 3px dashed black;
   }
